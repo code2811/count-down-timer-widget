@@ -100,7 +100,11 @@ class _CountdownTimerState extends State<CountdownTimer> {
                 style: TextStyle(
                   fontSize: 78,
                   fontWeight: FontWeight.w800,
-                  color: _isRunning ? _accentColor : Colors.white,
+                  color: _remainingSeconds == 0
+                      ? Colors.redAccent
+                      : _isRunning
+                      ? _accentColor
+                      : Colors.white,
                 ),
               ),
               const SizedBox(height: 8),
