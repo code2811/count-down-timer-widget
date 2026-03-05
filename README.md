@@ -28,14 +28,10 @@ I focused on these three properties in the demo:
 
 3. `valueColor` (default: theme color)
    - I set green while running and red when time is up.
-   - This makes the state clearer at a glance.
+   - This makes the state clearer at a glan
 
-## Screenshot
 
-Place the screenshot at `docs/final-ui.png`.
-
-![Final UI](docs/final-ui.png)
 
 ## Presentation date
 
-Date I presented in class: `YYYY-MM-DD`
+Date I presented in class: `5.3.2026`
